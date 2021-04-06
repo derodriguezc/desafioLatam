@@ -1,6 +1,22 @@
 body{
     background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h2{
+    font-weight: 400;
 }
 .navbar img{
     width: 3%;
+}
+img{
+    width: 100%;
+}
+hr{
+    border-width: 2px;
+    border-color: aqua;
+}
+i{
+    color: white;
 }
