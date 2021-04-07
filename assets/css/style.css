@@ -20,6 +20,8 @@ hr{
 i{
     color: white;
 }
-html{
-    scroll-behavior: smooth;
+.card img{
+    object-fit: cover;
+    object-position: center;
+    height: 180px;
 }
