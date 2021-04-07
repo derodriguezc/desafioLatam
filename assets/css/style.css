@@ -1,11 +1,11 @@
 body{
     background: black;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 h2{
-    font-weight: 400;
+    font-weight: 500;
 }
 .navbar img{
     width: 3%;
