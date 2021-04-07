@@ -20,3 +20,6 @@ hr{
 i{
     color: white;
 }
+html{
+    scroll-behavior: smooth;
+}

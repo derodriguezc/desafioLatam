@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
+    <!--Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 
@@ -14,12 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/6056ee1b45.js" crossorigin="anonymous"></script>
 
+    <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Viajes Chiles</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="inicio">
+        <!--Barra de navegacion-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
             <div class="container">
                 <img class="logo-title" src="assets/img/viajes.svg" alt="viajes">
                 <a class="navbar-brand text-white" href="#">Viajes Chile</a>
@@ -38,7 +42,10 @@
             </div>
         </nav>
     </header>
-    <section>
+
+    <!--Seccion del carrusel-->
+
+    <section id="inicio">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -61,7 +68,10 @@
             </a>
         </div>
     </section>
-    <section class="container py-5">
+
+    <!--Seccion de parrafo, se ocultan en smartphones-->
+
+    <section class="container py-5 d-none d-sm-none d-md-block">
         <h2 class="text-center pb-2" id="quienes-somos">¿Quienes Somos?</h2>
         <hr>
         <div class="row pt-4">
@@ -106,6 +116,9 @@
             </div>
         </div>
     </section>
+
+    <!--Seccion tarjetas destacadas-->
+
     <section class="container py-5">
         <h2 class="text-center pb-2" id="destacados">Destacados</h2>
         <hr>
@@ -152,6 +165,9 @@
             </div>
         </div>
     </section>
+
+    <!--Formulario de contacto con typeform-->
+
     <section class="container py-5">
         <h2 class="text-center pb-2" id="contacto">Contacto</h2>
         <hr>
@@ -169,6 +185,9 @@
             }
         })() </script>
     </section>
+
+    <!--Final de pagina con link a redes sociales-->
+
     <footer class="bg-info">
         <div class="container inline-block">
             <div class="row text-center">
@@ -184,9 +203,11 @@
             </div>
         </div>
     </footer>
-
+    <!--jQuery 3.5.1-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!--Bootstrap JS 4.6.0-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Mi script js-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
