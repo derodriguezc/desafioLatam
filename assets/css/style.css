@@ -25,3 +25,10 @@ i{
     object-position: center;
     height: 180px;
 }
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 100%;
+}
